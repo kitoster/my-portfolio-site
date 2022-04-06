@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+   
+</head>
+<body>
+<div class="container">
+  <nav class="navbar">
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+        
+        </ul>
+      </nav>
+  <section id="home">
+
+    <!--trying to wrap these in divs so when we make page smaller the button doesn't run over the typewriter.-->
+     <p id="typewriter"></p>
+      
+        <div class="aboutbuttonposition">
+          <a href="#about" class="linky" id="aboutbutton">About Me</a>
+        </div>
+
+        
+  </section>
+  <section id="about">
+      <h1 id="aboutheader">About</h1>
+        <p id="sectiontext">I'm in my final year of studying computer science at Colorado State University Global. I freelance web development and am passionate about creating a flawless, fast user experience. I speak German and English. </p>
+        <p>Location: Rehoboth Beach, DE, USA</p>
+        <p>Email: doster@dtcc.edu</p>
+        <p>Github: Link </p>
+
+        <!--Would like to mention that these buttons are not fully responsive. They respond do different browser sizes pretty well
+        but when it comes to phones they are not gonna work rip. -->
+        <div class = "otherbuttonsposition">
+        <a href="#projects" class="linky">Projects</a>
+      </div>
+  </section>
+  <section id="projects">
+      <h1 id="projectsheader">Projects</h1>
+      <div class="columns">
+         <div class="column">
+          <!-- using 200 x 250 in canva for the image sizes. can use photoshop too of course. -->
+           <p class ="columnheaders">Starfox</p>
+           <a href="https://www.google.com/"><img src="placeholder3.png" alt="Placeholder image of a computer."></a>
+           <p> An astrophotography website I created. </p>
+         </div>
+         <div class="column">
+           <p class="columnheaders">Don't Look Back</p>
+            <a href="https://www.google.com/"><img src="placeholder3.png" alt="Placeholder image of a computer."></a>
+            <p>A game I work on using Unreal Engine and C++.</p>
+        </div>
+        <div class="column">
+           <p class="columnheaders">Project 3</p>
+            <a href="https://www.google.com/"><img src="placeholder3.png" alt="Placeholder image of a computer."></a>
+            <p>Coming soon to own on DVD and Blu Ray.</p>
+        </div>
+      </div>
+
+      <div class="otherbuttonsposition">
+      <a href="#home" class="linky">Back to Top</a>
+      <div>
+  </section>
+
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="main.js"> </script>
+</body>
+
+</html>
